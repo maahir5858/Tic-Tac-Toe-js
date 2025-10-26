@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body {
+    background-image: linear-gradient(to right, #d088ff, #7b26b8);
+}
+
+button {
+    cursor: pointer;
+}
+
+#main {
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3.5rem;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title h1 {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
+}
+
+#title h2 {
+    color: white;
+    /* text-transform: uppercase; */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
+}
+
+.hidden {
+    display: none;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.265);
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: white;
+    color: #922fd8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reset-btn,
+.new-game-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgba(25, 25, 25, 0.208);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.reset-btn:hover,
+.new-game-btn:hover {
+    scale: 1.05;
+}
