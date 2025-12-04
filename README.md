@@ -11,7 +11,7 @@ This is a simple **Tic Tac Toe** game built with **JavaScript**. It's a side pro
 - **JavaScript**
 
 ## 📱 Project Preview
-<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/7a84df90-133c-46ab-a3c9-45936704656f" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/76b0b3ae-13e0-4000-8ae1-9bfd794525a7" />
 
 ## 🎥 Project Demo
 https://github.com/user-attachments/assets/7cb607e2-1369-4683-894e-465c84a2fc94
